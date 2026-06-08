@@ -36,5 +36,32 @@ let boolisLoggedIn = Boolean(isLoggedIn)
 
 let number = 67
 let stringnumber = String(number)
-console.log(stringnumber)//67
-console.log(typeof stringnumber)
+// console.log(stringnumber)//67
+// console.log(typeof stringnumber)
+
+// ***********************Operations***********************
+
+let value = 4
+let negvalue = -value
+//console.log(negvalue)
+
+// console.log(2*8)
+// console.log(2%6)
+
+let str1 = "Hello"
+let str2 = " Ayon"
+let str3 = str1 + str2
+// console.log(str3);
+// console.log("2"+5)
+// console.log(2+"5")
+// console.log(2+2+"1")//41
+// console.log("1"+2+2)//122
+
+// console.log((3+4) *5+3)
+console.log(+true);
+//console.log(true+); problematic code
+console.log(+"");
+
+
+console.log(1 +(((2 ** 3) * 4) / 5 )<< 6);
+
