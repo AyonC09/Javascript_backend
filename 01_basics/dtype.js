@@ -13,7 +13,7 @@ console.log(3+3)
 
 //object
 
-console.log(typeof"Ayon")
+console.log(typeof "Ayon")
 console.log(typeof null)//object
 
 console.log(typeof undefined)//undefined
