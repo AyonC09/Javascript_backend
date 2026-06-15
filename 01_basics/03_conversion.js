@@ -1,7 +1,7 @@
 /*let score ="Ayon"
 
 console.log(typeof score)
-console.log(typeof(score))
+//console.log(typeof(score))
 
 let valueInNumber = Number(score);//rely less on number
 console.log(typeof valueInNumber);//it should not convert but it converts
@@ -9,19 +9,21 @@ console.log(valueInNumber);//NaN special type
 
 let score1 = null
 
-console.log(typeof score1)//object
+//console.log(typeof score1)//object
 console.log(typeof(score1))
 
 let valueInNumber1 = Number(score1);//rely less on number
 console.log(typeof valueInNumber1);
+console.log(valueInNumber1)//0
 
 let score2 = undefined
 
 console.log(typeof score2)//undefined
-console.log(typeof(score2))
+//console.log(typeof(score2))
 
 let valueInNumber2 = Number (score2);//rely less on number
 console.log(typeof valueInNumber2);//number
+console.log(valueInNumber2)//NaN
 */
 /*
 "33" => 33
@@ -58,9 +60,10 @@ let str3 = str1 + str2
 // console.log("1"+2+2)//122
 
 // console.log((3+4) *5+3)
-console.log(+true);
+console.log(2+"4"+3)//243
+console.log(+true);//1
 //console.log(true+); problematic code
-console.log(+"");
+console.log(+"");//0
 
 
 console.log(1 +(((2 ** 3) * 4) / 5 )<< 6);
