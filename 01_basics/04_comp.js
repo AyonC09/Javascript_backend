@@ -15,3 +15,10 @@ console.log(null == undefined)//bcz acc. to author it means absence of value and
 
 console.log("2" === 2)// do not convert
 console.log("02" == 2)//converts
+
+let myObj = {
+    name:"Ayon",
+    age:23
+}
+
+console.log(myObj)
