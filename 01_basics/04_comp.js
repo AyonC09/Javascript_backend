@@ -22,3 +22,26 @@ let myObj = {
 }
 
 console.log(myObj)
+
+// +++++++++++++++++++++++++++++++++++++++++
+
+// Stack - primitive type , Heap - non-primitive
+
+let myYtName = "ayonchatterjeedotcom"
+let anotherName = myYtName
+
+anotherName = "BeerandMotorad"
+console.log(anotherName)
+console.log(myYtName)
+
+let userOne = {
+    email:"chatterjeeayon27.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.upi = "user@ibl"
+
+console.log(userOne.upi)
+console.log(userTwo.upi)
