@@ -27,3 +27,9 @@ const url = "https://https://262.ecma-international.org/5.1/#sec-11.4.3"
 console.log(url.replace('2.ecma','7.mdn'))
 console.log(gameName.split('-'))
 
+const x = new String("Hello world");
+console.log(x.valueOf()); // 'Hello world'
+// valueOf() returns the primitive value of the function
+
+const y = "Hello"
+console.log(y.concat("! ","Ayon"))
