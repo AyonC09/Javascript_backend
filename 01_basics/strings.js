@@ -5,7 +5,7 @@ const repoCount = 90
 
 const gameName = new String('ayon,ch,com')
 
-console.log(gameName.__proto__)
+//console.log(gameName.__proto__)
 
 
 console.log(gameName.toUpperCase())
