@@ -27,7 +27,7 @@ const obj2 = {3:"a",4:"b"}
 // console.log(obj3)
 // console.log(obj3 === obj1)
 
-// const obj4 = Object.assign(obj1,obj2)
+// const obj4 = Object.assign(obj1,obj2) //changes happen in the obj1 bcz it is the target
 // console.log(obj4 === obj1)
 
 const obj3 = {...obj1,...obj2}
