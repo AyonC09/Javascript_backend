@@ -12,6 +12,9 @@ const dc_heros = ['superman','batman','flash']
 const combinedArr = [...marvel_heros,...dc_heros]
 console.log(combinedArr)
 
+const all_heros = marvel_heros.slice().concat(dc_heros)
+console.log(all_heros)
+
 const anotherArr = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 
 const usableanother_Arr = anotherArr.flat(Infinity)
