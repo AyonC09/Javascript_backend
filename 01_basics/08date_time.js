@@ -14,7 +14,7 @@ console.log(typeof myDate)//object
 //console.log(myCreatedDate.toLocaleString())// MM-DD-YYYY
 
 let myTimestamp = Date.now()
-// console.log(myTimestamp)//milisecond time
+// console.log(myTimestamp)//milisecond time passed from 1st Jan 1970
 
 // console.log(myCreatedDate.getUTCDay())//4
 // console.log(myCreatedDate.getTime())//millisecond time
