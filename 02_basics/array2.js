@@ -9,8 +9,8 @@ const dc_heros = ['superman','batman','flash']
 // const combinedArr = marvel_heros.concat(dc_heros)
 // console.log(combinedArr)
 
-const combinedArr = [...marvel_heros,...dc_heros]
-console.log(combinedArr)
+const combinedArr1 = [...marvel_heros,...dc_heros]
+console.log(combinedArr1)
 
 const all_heros = marvel_heros.slice().concat(dc_heros)
 console.log(all_heros)
