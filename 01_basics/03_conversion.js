@@ -61,7 +61,7 @@ let str3 = str1 + str2
 
 // console.log((3+4) *5+3)
 console.log(2+"4"+3)//243
-console.log(+true);//1
+console.log(+true);//1 due to type coercion unary opeartor converts toNumber() +true => 1
 //console.log(true+); problematic code
 console.log(+"");//0
 
