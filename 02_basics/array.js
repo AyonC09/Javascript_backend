@@ -11,9 +11,9 @@ console.log(myHeros)
 // console.log(myArr.indexOf(3))
 
 
-// const newArr = myArr.join('-')
-// console.log(newArr)
-// console.log(typeof newArr)//converts the array into string
+const newArr = myArr.join('-')
+console.log(newArr)//0-1-2-3-4-5
+console.log(typeof newArr)//converts the array into string
 
 
 //SLICE , SPLICE
