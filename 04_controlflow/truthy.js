@@ -32,4 +32,5 @@ let val1;
 //val1 = undefined??10//10
 //val1 = undefined ?? null //null
 val1 = null ?? undefined //undefined
+// false then also falsy values
 console.log(val1)
