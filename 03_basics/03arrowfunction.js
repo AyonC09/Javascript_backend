@@ -16,12 +16,12 @@ const user = {
 
 //console.log(this)// refering to empty object {}
 
-// function chai(){
-//     let username = "Ayon"
-//     console.log(this.username)
-// }// it doesn't show anything
+function chai1(){
+    let username = "Ayon"
+    console.log(this)
+}// it show undefined
 
-//chai()
+chai1()
 
 
 const chai = () => {
@@ -29,7 +29,7 @@ const chai = () => {
     console.log(this)
 }
 
-//chai()
+chai()
 
 //const addTwo = (num1,num2) => (num1+num2)
 
