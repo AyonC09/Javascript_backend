@@ -9,10 +9,10 @@ const arr = [1,2,3,4,5]
 //     console.log(num)
 // }
 
-// const greeting = "Hello world!"
-// for (const value of greeting) {
-//     console.log(`Each char is ${value}`)
-// }
+const greeting = "Hello world!"
+for (const value of greeting) {
+    console.log(`Each char is ${value}`)  
+}
 
 //Maps
 
