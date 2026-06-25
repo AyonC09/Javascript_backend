@@ -19,7 +19,7 @@ const user = {
 function chai1(){
     let username = "Ayon"
     console.log(this)
-}// it show undefined
+}// it points to the standalone global object
 
 chai1()
 
