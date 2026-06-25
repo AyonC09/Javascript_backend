@@ -34,3 +34,12 @@ let val1;
 val1 = null ?? undefined //undefined
 // false then also falsy values
 console.log(val1)
+
+val2 = undefined || null 
+console.log(val2)
+
+val3 = null ^ undefined
+console.log(val3)
+
+val4 = null && undefined
+console.log(val4)
