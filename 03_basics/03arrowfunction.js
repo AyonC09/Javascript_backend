@@ -8,7 +8,7 @@ const user = {
     }
 
 }
-// this current context
+// this refers to the current object
 
 // user.welcomeMessage()
 // user.username = "sam"
@@ -31,7 +31,7 @@ const chai = () => {
 
 chai()
 
-//const addTwo = (num1,num2) => (num1+num2)
+// //const addTwo = (num1,num2) => (num1+num2)
 
 const addTwo = (num1,num2) => ({username:"Ayon"})
 console.log(addTwo(3,4))
